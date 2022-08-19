@@ -1,0 +1,195 @@
+.banner {
+    background-color: black;
+    position: static;
+}
+
+body {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 20px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    z-index: -2;
+    font-size: 100px;
+    font-family: 'Stalinist One', cursive;
+    margin-top: 0px;
+    position: fixed;
+    color: rgba(128, 128, 128, 0.203);
+    text-align: left;
+    right: 46%;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 100px;
+    font-family: 'Stalinist One', cursive;
+    margin-top: 0px;
+    position: fixed;
+    color: rgba(128, 128, 128, 0.203);
+    text-align: left;
+    left: 76%;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-family: 'Stalinist One', cursive;
+}
+h4 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.back-container {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+
+}
+
+.top-container {
+    text-align: left;
+    background-color: rgb(0, 152, 15);
+    margin-top: 50px;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.skill-row {
+    width: 100%;
+    margin:100px auto 100px auto;
+    position: relative;
+    background-color: rgba(0, 152, 15, 0.112);
+    text-align: left;
+    line-height: 2;
+}
+
+.html5 {
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+}
+
+.css3 {
+    width: 25%;
+    float: right;
+    margin-left: 15px;
+}
+
+.contact-me {
+    background-color: rgba(0, 152, 15, 0.112);
+}
+
+.hacker {
+    position: sticky;
+    /* margin-right: 300px; */
+    width: 100%;
+}
+
+.footer-link {
+    font-family: 'Stalinist One', cursive;
+    color: rgb(212, 0, 255);
+    text-align: center;
+}
+
+.hunter {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-family: 'Stalinist One', cursive;
+}
+
+
+.one {
+    z-index: -1;
+    line-height: 2;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.393);
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    position: fixed;
+    left: 66%;
+    top: 100px;
+}
+
+.two {
+    z-index: -1;
+    line-height: 1.5;
+    text-align: right;
+    color: rgba(255, 0, 0, 0.393);
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    position: fixed;
+    right: 66%;
+    top: 305px;
+}
+
+.three {
+    z-index: -1;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.393);
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    position: fixed;
+    left: 66%;
+    top: 370px;
+}
+
+.four {
+    z-index: -1;
+    line-height: 1.5;
+    text-align: right;
+    color: rgba(255, 0, 0, 0.393);
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    position: fixed;
+    right: 66%;
+    top: 650px;
+}
+
+.five {
+    z-index: -1;
+    float: left;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.393);
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    position: fixed;
+    left: 66%;
+    top: 820px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.btn {
+position: relative;
+    z-index: 1;
+    font-family: 'Stalinist One', cursive;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #f200ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
